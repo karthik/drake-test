@@ -9,3 +9,5 @@ library(purrr)
 library(rlang)
 
 pkgconfig::set_config("drake::strings_in_dots" = "literals")
+
+wesanderson::wes_palette()
